@@ -91,7 +91,7 @@ void Displayinit()
 void Get_weather_data()
 {
   HTTPClient http;
-  url = "https://api.seniverse.com/v3/weather/now.json?key=SRv-auGmyT6lOOE-B&location=hefei&language=zh-Hans&unit=c"; // 设置目标网站的URL
+  url = "https://api.seniverse.com/v3/weather/now.json?key=***YOUR_API_KEY***&location=hefei&language=zh-Hans&unit=c"; // 设置目标网站的URL
   http.begin(url);
   int httpCode = http.GET();
 
